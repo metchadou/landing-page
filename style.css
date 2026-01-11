@@ -1,20 +1,15 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
+/*HEADER SECTION STYLES*/
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    font-size: 18px;
     height: 80px;
     box-sizing: border-box;
     margin: 0;
-    padding: 0 50px;
+    padding: 0 100px;
+    min-width: 700px;
 
 }
 
@@ -39,7 +34,65 @@ body {
 }
 
 .nav-link a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*HERO SECTION STYLES*/
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 100px;
     color: white;
+    box-sizing: border-box;
+    min-width: 700px;
+}
+
+.hero-content {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-content .signup-button {
+    border: none;
+}
+
+
+.hero-media-container {
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-media {
+    max-width: 100%;
+}
+
+/*GLOBAL STYLES*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 ul {
@@ -50,5 +103,14 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.signup-button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    cursor: pointer;
 }
 
