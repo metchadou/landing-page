@@ -148,6 +148,27 @@
     text-align: right;
 }
 
+/*CTA SECTION STYLES*/
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.cta-content {
+    color: #F9FAF8;
+}
+
 /*GLOBAL STYLES*/
 
 *{
