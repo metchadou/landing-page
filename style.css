@@ -40,7 +40,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #1F2937;
     color: white;
 }
@@ -168,6 +168,19 @@
 .cta-content {
     color: #F9FAF8;
 }
+
+/*FOOTER SECTION STYLES*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 80px;
+    color: #F9FAF8;
+}
+
+
 
 /*GLOBAL STYLES*/
 
