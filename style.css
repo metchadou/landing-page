@@ -123,6 +123,31 @@
     max-width: 100%;
 }
 
+/*TESTIMONIALS SECTION STYLES*/
+
+.testimonials {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial {
+    padding: 50px;
+}
+
+.testimonial-quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.testimonial-author {
+    font-size: 27px;
+    font-weight: 900;
+    text-align: right;
+}
+
 /*GLOBAL STYLES*/
 
 *{
@@ -158,6 +183,10 @@ section {
 section {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+cite {
+    font-style: normal;
 }
 
 .signup-button {
